@@ -1,0 +1,31 @@
+<div class="container mx-auto py-8">
+
+  <!-- Banner Section -->
+  <section class="bg-blue-600 text-white text-center py-12 rounded-lg">
+    <h1 class="text-5xl font-extrabold">Welcome to CricketLive</h1>
+    <p class="mt-4 text-lg">Your one-stop destination for live cricket scores, match updates, and more!</p>
+    <a [routerLink]="'/live-score'"
+      class="inline-block mt-6 bg-white text-blue-600 hover:bg-blue-300 font-bold py-2 px-6 rounded-full transition duration-300">Check
+      Live Scores</a>
+  </section>
+
+  <!-- Adding an image here -->
+  <div class="mt-6">
+    <img src="cricket-banner.webp" alt="Cricket Image" class="w-full min-h-3.5 shadow-lg">
+  </div>
+
+  <!-- Quick Navigation Links -->
+  <section class="mt-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">Quick Links</h2>
+    <div class="flex space-x-4">
+      <a [routerLink]="'/point-table'" class="bg-blue-600 text-white hover:bg-blue-700 font-bold py-2 px-4 rounded-full 
+        transition duration-300">CWC2023 Point Table</a>
+      <a [routerLink]="'/history'" class="bg-blue-600 text-white hover:bg-blue-700 font-bold py-2 px-4 rounded-full
+         transition duration-300">Match History</a>
+      <a [routerLink]="'/live-score'" class="bg-blue-600 text-white hover:bg-blue-700 font-bold py-2 px-4 rounded-full
+        transition duration-300">Live Scores</a>
+    </div>
+  </section>
+
+
+</div>

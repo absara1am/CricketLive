@@ -1,0 +1,21 @@
+<!-- app.component.html -->
+<header class="bg-blue-600 text-white">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+        <!-- Brand Name -->
+        <div class="text-3xl font-bold">
+            <a class="hover:text-blue-300 transition duration-300">CricketLive</a>
+        </div>
+        <!-- Menu -->
+        <nav class="space-x-6">
+            <a [routerLink]="'/home'"  class="text-lg hover:text-blue-300 transition duration-300">Home</a>
+            <a [routerLink]="'/live-score'"  class="text-lg hover:text-blue-300 transition duration-300">Live Matches</a>
+            <a [routerLink]="'/history'"  class="text-lg hover:text-blue-300 transition duration-300">History</a>
+            <a [routerLink]="'/point-table'"  class="text-lg hover:text-blue-300 transition duration-300">Point Table</a>
+        </nav>
+        <div></div>
+    </div>
+</header>
+
+<div class="px-16 py-4">
+    <router-outlet></router-outlet>
+</div>
