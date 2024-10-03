@@ -1,6 +1,6 @@
 # CricketLive 🏏
 
-CricketLive is a full-stack web application that provides real-time cricket match updates, scores, match details, and the points table of the ongoing Cricket World Cup. The application is built using Angular for the frontend, Spring Boot for the backend, and PostgreSQL as the database.
+CricketLive is a full-stack web application that provides real-time cricket match updates, scores, match details, and points table of the ongoing Cricket World Cup. The application is built using Angular for the frontend, Spring Boot for the backend, and PostgreSQL as the database.
 
 ## Features 🚀
 
@@ -45,8 +45,18 @@ In case the live website is unavailable, here’s a preview of the application:
 - PostgreSQL (for local development)
 - Maven (for backend)
 
-### Instructions
+## Contributing 🛠️
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/CricketLive.git
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements 🙌
+
+- Special thanks to all libraries, frameworks, and resources that made this project possible.
